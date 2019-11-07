@@ -8,7 +8,7 @@ public class ChuckNorrisJokeService implements JokeService {
 
     private final ChuckNorrisQuotes chuckNorris;
 
-    public ChuckNorrisJokeService() {
+    public ChuckNorrisJokeService(ChuckNorrisQuotes chuckNorris) {
         this.chuckNorris = new ChuckNorrisQuotes();
     }
 
